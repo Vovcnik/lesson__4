@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Monomakh Unicode TT';
+    src: url('MonomakhUnicodeTT.woff2') format('woff2'),
+        url('MonomakhUnicodeTT.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

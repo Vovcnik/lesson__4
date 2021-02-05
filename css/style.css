@@ -1,0 +1,156 @@
+/* подключаем шрифты 2-умя способами */
+
+@import url('https://fonts.googleapis.com/css?family=Yusei+Magic:regularregular&display=swap&subset=cyrillic-ext');
+@font-face {
+    font-family: 'Monomakh Unicode TT';
+    src: url('../fonts/MonomakhUnicodeTT.woff2') format('woff2'), url('../fonts/MonomakhUnicodeTT.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Potta+One:regular&display=swap&subset=cyrillic-ext');
+@font-face {
+    font-family: 'Match';
+    src: url('../fonts/MatchBold.woff2') format('woff2'), url('../fonts/MatchBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Match';
+    src: url('../fonts/MatchBold.woff2') format('woff2'), url('../fonts/MatchBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Стили обнуления start*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+body {
+    line-height: 1px;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+/* Стили обнуления end*/
+
+.main {
+    font-size: 20px;
+    font-family: 'Match';
+    line-height: 130%;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 4px rgba(185, 28, 28, 0.692);
+}
+
+.header {
+    text-align: center;
+    font-size: 60px;
+    line-height: 200%;
+    text-shadow: 5px 5px 4px #0f0f0fb0;
+    text-decoration: underline wheat;
+}
+
+img {
+    max-width: 500px;
+}
+
+.text {
+    line-height: 30px;
+    text-align: left;
+}
+
+.text {
+    text-indent: 100px;
+}
+
+.micro {
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+}
+
+.micro span {
+    color: brown;
+    white-space: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 15px red;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.posrt {
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: 700;
+    color: aqua;
+    text-align: right;
+}
+
+.italic {
+    word-spacing: 15px;
+    font-style: italic;
+    font-size: 40px;
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    line-height: 150%;
+    text-shadow: 7px -1px 5px #454564;
+    text-decoration: overline red;
+}
+
+.active {
+    font-family: 'Monomakh Unicode TT';
+    color: rgb(238, 147, 11);
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.xaker {
+    text-decoration: line-through 5px solid red;
+}
